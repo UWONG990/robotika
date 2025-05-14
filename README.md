@@ -1,1 +1,2 @@
-# ambatron-project
+# AMBAtron
+(Automatus Monitoring Bot for Anomaly)
