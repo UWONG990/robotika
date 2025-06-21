@@ -71,34 +71,6 @@ Choose between:
 - **Manual Mode:** Control robot with keyboard
 - **Automatic Mode:** Camera detects anomalies automatically
 
----
-
-## 🧠 Model Training (Optional)
-
-To train your own anomaly detector:
-
-1. Label images using [LabelImg](https://github.com/tzutalin/labelImg) or [Roboflow](https://roboflow.com)
-2. Save labels in YOLO format
-3. Create `data.yaml` for YOLOv5
-4. Train with:
-
-```bash
-python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolov5s.pt --name ambatron
-```
-
----
-
-## 📌 Example Labels for Detection
-
-| Class ID | Label Name     | Description                         |
-|----------|----------------|-------------------------------------|
-| 0        | normal          | Normal images / safe environment    |
-| 1        | brainrot        | Visually chaotic/meme objects       |
-| 2        | ronda           | Human patrol or watch-like figure   |
-| 3        | flaming_plane   | Surreal or threatening object       |
-
----
-
 ## 📷 Sample Use Cases
 
 - Detecting memes or visual anomalies
@@ -106,14 +78,3 @@ python train.py --img 640 --batch 16 --epochs 50 --data data.yaml --weights yolo
 - Integrating YOLO with robotics platforms
 
 ---
-
-## 👤 Author
-
-**Dwijo Utomo Rahino Putro**  
-GitHub: [@UWONG990](https://github.com/UWONG990)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
