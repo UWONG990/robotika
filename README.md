@@ -61,6 +61,6 @@ Choose between:
 - Integrating YOLO with robotics platforms
 
 ---
-## Disclaimer
+## ⚠️ Disclaimer
 
 This project is intended for educational and experimental purposes only.
