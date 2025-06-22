@@ -11,30 +11,13 @@ Link Demo: https://youtu.be/uZ5q_Poyh3o
 
 ## 📸 Core Features
 
-- 🧠 Detects anomalies using image recognition (e.g., brainrot, unusual objects)
+- 🧠 Detects anomalies using image recognition (e.g., italian anomalies brainrot, unusual objects)
 - 🤖 ESP32-controlled movement: forward, left, right, reverse, and stop
 - 📷 Real-time detection using laptop webcam
 - 🔌 Serial communication between Python (host) and ESP32 (robot)
 - 🧪 Manual and automatic modes for testing and control
 
 ---
-
-## 📁 Project Structure
-
-```
-robotika/
-├── esp32-code/             # Arduino code for ESP32 control
-│   └── ambatron.ino
-├── python/                 # Python code for detection and communication
-│   └── ambatron_control.py
-├── model/                  # Folder for trained YOLO or classifier model
-│   └── best.pt (optional)
-├── dataset/                # Optional: training data for detection model
-│   ├── images/
-│   └── labels/
-├── README.md
-└── requirements.txt
-```
 
 ---
 
@@ -73,8 +56,11 @@ Choose between:
 
 ## 📷 Sample Use Cases
 
-- Detecting memes or visual anomalies
+- Detecting visual anomalies
 - Prototyping AI-powered patrol robots
 - Integrating YOLO with robotics platforms
 
 ---
+## Disclaimer
+
+This project is intended for educational and experimental purposes only.
