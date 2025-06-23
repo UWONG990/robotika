@@ -2,6 +2,7 @@
 Nama: Dwijo Utomo Rahino Putro  
 Npm: 22081010220  
 Link Demo: https://youtu.be/uZ5q_Poyh3o  
+Proposal PKM: https://github.com/UWONG990/robotika/blob/main/Draft%20Proposal%20PKM-KC%202025%20Robotika%20B081%20Kelompok%207.docx.pdf<br>https://docs.google.com/document/d/1xPm1nhR86zhkJfc69P1aazEFeCHOyu4j/edit?usp=sharing&ouid=106188297409278402452&rtpof=true&sd=true
 
 # 🤖 AMBATRON - Automated Monitoring Bot for Anomalies
 
