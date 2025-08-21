@@ -22,8 +22,6 @@ Proposal PKM:
 
 ---
 
----
-
 ## 🚀 How It Works
 
 1. **Default Behavior:** The robot moves forward continuously.
@@ -57,7 +55,17 @@ Choose between:
 - **Manual Mode:** Control robot with keyboard
 - **Automatic Mode:** Camera detects anomalies automatically
 
-## 📷 Sample Use Cases
+---
+
+## ⚙️ How to Run Use Anaconda
+
+```bash
+conda activate yolo-env1
+
+python "...\robotika\ambatron\ambatron.py" --model "...\robotika\ambatron\my_model.pt" --source 0
+
+```
+---
 
 - Detecting visual anomalies
 - Prototyping AI-powered patrol robots
